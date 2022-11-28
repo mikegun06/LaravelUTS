@@ -19,7 +19,7 @@
                         Categories
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ Route('bookcat', ['id' => 1]) }}">Fiction</a></li> 
+                        <li><a class="dropdown-item" href="{{ Route('bookcat',['id' => 1])}}">Fiction</a></li> 
                         <li><a class="dropdown-item"href="{{ Route('bookcat',['id' => 2]) }}">Self Development</a></li>
                         <li><a class="dropdown-item" href="{{ Route('bookcat', ['id' => 3]) }}">Manga</a></li>
                     </ul>

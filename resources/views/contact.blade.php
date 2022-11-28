@@ -5,7 +5,7 @@
     <div class="judul p-1 mb-2" style="background-color: grey; color: white">
         <h3>Contact</h3>
     </div>
-    <div class="content">
+    <div class="content mb-5">
         <h3>Store Address</h3>
         <p>Jalan Pembangunan Raya</p>
         <p>Kompleks Pertokoan</p>

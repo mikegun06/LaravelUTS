@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Book;
+use App\Http\Controllers\BookCategory;
 use App\Http\Controllers\BookDetail;
 use App\Http\Controllers\Contact;
 use App\Http\Controllers\Publisher;
@@ -23,7 +24,7 @@ Route::get('/', [
 Route::get('/pub', [
     Publisher::class,'getAllPublisher'
 ])->name('publisher');
-Route::get('/book/category{id}', [
+Route::get('/book/category', [
     BookCategory::class,'getBookbyCategory'
 ])->name('bookcat');
 Route::get('/book/detail{id}', [

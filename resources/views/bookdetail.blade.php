@@ -13,9 +13,9 @@
             <h5 class="card-title">{{ $bd->author }}</h5>
             <h5 class="card-title">{{ $bd->publisher }}</h5>
             <h5 class="card-title">{{ $bd->year }}</h5>
-            <p class="card-text">{{ $bd->sypnosis }}</p>
+            <p class="card-text">{{ $bd->synopsis }}</p>
         </div>
     </div>
     @endforeach
-</div>`
+</div>
 @endsection
